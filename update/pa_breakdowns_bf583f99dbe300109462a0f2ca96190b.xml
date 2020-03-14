@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_breakdowns">
+    <pa_breakdowns action="INSERT_OR_UPDATE">
+        <data_source/>
+        <default_filter/>
+        <description/>
+        <dimension display_value="Locations">b41d1662eb23310065deac6aa206fe06</dimension>
+        <display>true</display>
+        <facts_table/>
+        <field/>
+        <groups/>
+        <id>38</id>
+        <name>Covid Location</name>
+        <role_override>true</role_override>
+        <roles/>
+        <script/>
+        <scripted>false</scripted>
+        <sql_statement/>
+        <sys_class_name>pa_breakdowns</sys_class_name>
+        <sys_created_by>w.geek6</sys_created_by>
+        <sys_created_on>2020-03-14 01:56:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bf583f99dbe300109462a0f2ca96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Covid Location</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Covid-19" source="x_116943_covid_19">c03f1f9ddb2300109462a0f2ca9619d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid-19">c03f1f9ddb2300109462a0f2ca9619d1</sys_scope>
+        <sys_update_name>pa_breakdowns_bf583f99dbe300109462a0f2ca96190b</sys_update_name>
+        <sys_updated_by>w.geek6</sys_updated_by>
+        <sys_updated_on>2020-03-14 01:56:03</sys_updated_on>
+        <type>1</type>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_breakdowns>
+    <sys_translated_text action="delete_multiple" query="documentkey=bf583f99dbe300109462a0f2ca96190b"/>
+</record_update>

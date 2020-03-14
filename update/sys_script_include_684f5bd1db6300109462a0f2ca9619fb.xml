@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_116943_covid_19.DataSource</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>DataSource</name>
+        <script><![CDATA[var DataSource = Class.create();
+DataSource.prototype = {
+    initialize: function () { },
+
+    country: function (cc) {
+        var covid19 = 'https://covid2019-api.herokuapp.com/country/' + cc,
+            objResult = {};
+
+        var restMessage = new sn_ws.RESTMessageV2();
+        try {
+            restMessage.setHttpMethod("get");
+            restMessage.setEndpoint(covid19);
+
+            var response = restMessage.execute();
+            var responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+            var status = response.getStatusCode();
+        } catch (ex) {
+            responseBody = ex.getMessage();
+            status = '500'; //needs to be passed back into the objResult
+        } finally {
+            requestBody = restMessage ? restMessage.getRequestBody() : null;
+        }
+
+        objResult.response = responseBody || {}; //not pretty if response is not JSON
+        objResult.status = status;
+
+        return JSON.parse(objResult.response);
+    },
+
+    countries: function () {
+        var covid19 = 'https://covid2019-api.herokuapp.com/countries',
+            objResult = {};
+
+        var restMessage = new sn_ws.RESTMessageV2();
+        try {
+            restMessage.setHttpMethod("get");
+            restMessage.setEndpoint(covid19);
+
+            var response = restMessage.execute();
+            var responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+            var status = response.getStatusCode();
+        } catch (ex) {
+            responseBody = ex.getMessage();
+            status = '500'; //needs to be passed back into the objResult
+        } finally {
+            requestBody = restMessage ? restMessage.getRequestBody() : null;
+        }
+
+        objResult.response = responseBody || {}; //not pretty if response is not JSON
+        objResult.status = status;
+
+        return JSON.parse(objResult.response);
+    },
+
+    confirmed: function () {
+        var covid19 = 'https://covid2019-api.herokuapp.com/confirmed',
+            objResult = {};
+
+        var restMessage = new sn_ws.RESTMessageV2();
+        try {
+            restMessage.setHttpMethod("get");
+            restMessage.setEndpoint(covid19);
+
+            var response = restMessage.execute();
+            var responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+            var status = response.getStatusCode();
+        } catch (ex) {
+            responseBody = ex.getMessage();
+            status = '500'; //needs to be passed back into the objResult
+        } finally {
+            requestBody = restMessage ? restMessage.getRequestBody() : null;
+        }
+
+        objResult.response = responseBody || {}; //not pretty if response is not JSON
+        objResult.status = status;
+
+        return JSON.parse(objResult.response);
+    },
+
+    tsApi: function (type) {
+        var covid19 = '   https://covid2019-api.herokuapp.com/timeseries/' + type,
+            objResult = {};
+
+        var restMessage = new sn_ws.RESTMessageV2();
+        try {
+            restMessage.setHttpMethod("get");
+            restMessage.setEndpoint(covid19);
+
+            var response = restMessage.execute();
+            var responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+            var status = response.getStatusCode();
+        } catch (ex) {
+            responseBody = ex.getMessage();
+            status = '500'; //needs to be passed back into the objResult
+        } finally {
+            requestBody = restMessage ? restMessage.getRequestBody() : null;
+        }
+
+        objResult.response = responseBody || {}; //not pretty if response is not JSON
+        objResult.status = status;
+
+        return JSON.parse(objResult.response);
+    },
+
+
+    getArr: function (type) {
+        var countries = this.tsApi(type);
+        if (type == 'confirmed') {
+            return countries.confirmed;
+        }
+        if (type == 'recovered') {
+            return countries.recovered;
+        }
+        if (type == 'deaths') {
+            return countries.deaths;
+        }
+    },
+
+    processTimeSeries: function (type) {
+
+        var arr = this.getArr(type);
+
+
+        for (var i = 0; i < arr.length; i++) {
+            var obj = arr[i];
+            var country = obj["Country/Region"];
+            delete obj["Country/Region"];
+            var lat = obj["Lat"];
+            delete obj["Lat"];
+            var lon = obj["Long"];
+            delete obj["Long"];
+            var state = obj["Province/State"];
+            delete obj["Province/State"];
+
+            for (var date in obj) {
+                var date = date;
+                var count = obj[date];
+                if (!count)
+                    continue;
+
+                var grImport = new GlideRecord('x_116943_covid_19_timeseries');
+                grImport.addQuery('country', country);
+                grImport.addQuery('state', state);
+                grImport.addQuery('lon', lon);
+                grImport.addQuery('lat', lat);
+                grImport.addQuery('ts', date);
+
+                grImport.query();
+                if (grImport.next()) {
+                    grImport.setValue(type, count);
+                    grImport.update();
+                }
+                else {
+                    grImport.initialize();
+                    grImport.setValue('country', country);
+                    grImport.setValue('state', state);
+                    grImport.setValue('lon', lon);
+                    grImport.setValue('lat', lat);
+                    grImport.setValue('ts', date);
+
+                    grImport.setValue(type, count);
+                    grImport.insert();
+                }
+
+            }
+
+        }
+
+
+
+    },
+
+    type: 'DataSource'
+
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>w.geek6</sys_created_by>
+        <sys_created_on>2020-03-14 00:07:02</sys_created_on>
+        <sys_id>684f5bd1db6300109462a0f2ca9619fb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>DataSource</sys_name>
+        <sys_package display_value="Covid-19" source="x_116943_covid_19">c03f1f9ddb2300109462a0f2ca9619d1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Covid-19">c03f1f9ddb2300109462a0f2ca9619d1</sys_scope>
+        <sys_update_name>sys_script_include_684f5bd1db6300109462a0f2ca9619fb</sys_update_name>
+        <sys_updated_by>w.geek6</sys_updated_by>
+        <sys_updated_on>2020-03-14 01:49:23</sys_updated_on>
+    </sys_script_include>
+</record_update>

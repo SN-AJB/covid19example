@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-03-14 02:19:41">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles>snc_internal</read_roles>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>w.geek6</sys_created_by>
+        <sys_created_on>2020-03-14 02:12:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>663cbf15db2700109462a0f2ca961919</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PA Map</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Covid-19" source="x_116943_covid_19">c03f1f9ddb2300109462a0f2ca9619d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid-19">c03f1f9ddb2300109462a0f2ca9619d1</sys_scope>
+        <sys_update_name>sys_portal_page_663cbf15db2700109462a0f2ca961919</sys_update_name>
+        <sys_updated_by>w.geek6</sys_updated_by>
+        <sys_updated_on>2020-03-14 02:13:30</sys_updated_on>
+        <title>PA Map</title>
+        <user/>
+        <view>pa_new_tab_21</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Map">663cbf15db2700109462a0f2ca961919</page>
+                <summary>Covid-19 Confirmed</summary>
+                <sys_created_by>w.geek6</sys_created_by>
+                <sys_created_on>2020-03-14 02:13:49</sys_created_on>
+                <sys_id>048cb395db2700109462a0f2ca96197d</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>w.geek6</sys_updated_by>
+                <sys_updated_on>2020-03-14 02:13:49</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:49">048cb395db2700109462a0f2ca96197d</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:49</sys_created_on>
+                        <sys_id>008cb395db2700109462a0f2ca96197e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:49</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:49">048cb395db2700109462a0f2ca96197d</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:49</sys_created_on>
+                        <sys_id>088cb395db2700109462a0f2ca96197d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:49</sys_updated_on>
+                        <value>0d6bfb51db2700109462a0f2ca9619b1</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:49">048cb395db2700109462a0f2ca96197d</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:49</sys_created_on>
+                        <sys_id>488cb395db2700109462a0f2ca96197e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:49</sys_updated_on>
+                        <value>Covid-19 Confirmed</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:49">048cb395db2700109462a0f2ca96197d</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:49</sys_created_on>
+                        <sys_id>4c8cb395db2700109462a0f2ca96197d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:49</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:49">048cb395db2700109462a0f2ca96197d</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:49</sys_created_on>
+                        <sys_id>848cb395db2700109462a0f2ca96197e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:49</sys_updated_on>
+                        <value>map</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:49">048cb395db2700109462a0f2ca96197d</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:49</sys_created_on>
+                        <sys_id>c08cb395db2700109462a0f2ca96197e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:49</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Map">663cbf15db2700109462a0f2ca961919</page>
+                <summary>Covid-19 Recovered</summary>
+                <sys_created_by>w.geek6</sys_created_by>
+                <sys_created_on>2020-03-14 02:13:44</sys_created_on>
+                <sys_id>4b7cff15db2700109462a0f2ca961987</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>w.geek6</sys_updated_by>
+                <sys_updated_on>2020-03-14 02:13:44</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:44">4b7cff15db2700109462a0f2ca961987</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:44</sys_created_on>
+                        <sys_id>0b7cff15db2700109462a0f2ca961988</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:44</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:44">4b7cff15db2700109462a0f2ca961987</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:44</sys_created_on>
+                        <sys_id>477cff15db2700109462a0f2ca961988</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:44</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:44">4b7cff15db2700109462a0f2ca961987</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:44</sys_created_on>
+                        <sys_id>4f7cff15db2700109462a0f2ca961987</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:44</sys_updated_on>
+                        <value>57dbff91db2700109462a0f2ca9619ef</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:44">4b7cff15db2700109462a0f2ca961987</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:44</sys_created_on>
+                        <sys_id>837cff15db2700109462a0f2ca961988</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:44</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:44">4b7cff15db2700109462a0f2ca961987</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:44</sys_created_on>
+                        <sys_id>8f7cff15db2700109462a0f2ca961988</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:44</sys_updated_on>
+                        <value>Covid-19 Recovered</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:44">4b7cff15db2700109462a0f2ca961987</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:44</sys_created_on>
+                        <sys_id>cb7cff15db2700109462a0f2ca961988</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:44</sys_updated_on>
+                        <value>map</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA Map">663cbf15db2700109462a0f2ca961919</page>
+                <summary>Covid-19 Deaths</summary>
+                <sys_created_by>w.geek6</sys_created_by>
+                <sys_created_on>2020-03-14 02:13:38</sys_created_on>
+                <sys_id>997cf395db2700109462a0f2ca961981</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>w.geek6</sys_updated_by>
+                <sys_updated_on>2020-03-14 02:13:38</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:38">997cf395db2700109462a0f2ca961981</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:38</sys_created_on>
+                        <sys_id>117cf395db2700109462a0f2ca961983</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:38</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:38">997cf395db2700109462a0f2ca961981</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:38</sys_created_on>
+                        <sys_id>1d7cf395db2700109462a0f2ca961983</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:38</sys_updated_on>
+                        <value>Covid-19 Deaths</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:38">997cf395db2700109462a0f2ca961981</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:38</sys_created_on>
+                        <sys_id>557cf395db2700109462a0f2ca961982</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:38</sys_updated_on>
+                        <value>bc6af3dddbe300109462a0f2ca9619ea</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:38">997cf395db2700109462a0f2ca961981</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:38</sys_created_on>
+                        <sys_id>597cf395db2700109462a0f2ca961983</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:38</sys_updated_on>
+                        <value>map</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:38">997cf395db2700109462a0f2ca961981</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:38</sys_created_on>
+                        <sys_id>957cf395db2700109462a0f2ca961983</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:38</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2020-03-14 02:13:38">997cf395db2700109462a0f2ca961981</portal_section>
+                        <sys_created_by>w.geek6</sys_created_by>
+                        <sys_created_on>2020-03-14 02:13:38</sys_created_on>
+                        <sys_id>d17cf395db2700109462a0f2ca961983</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>w.geek6</sys_updated_by>
+                        <sys_updated_on>2020-03-14 02:13:38</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
