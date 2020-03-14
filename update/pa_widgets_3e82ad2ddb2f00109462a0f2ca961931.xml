@@ -45,8 +45,8 @@
         <gauge_to/>
         <include_comments>false</include_comments>
         <include_confidence>false</include_confidence>
-        <include_forecast>false</include_forecast>
-        <include_prediction_interval>false</include_prediction_interval>
+        <include_forecast>true</include_forecast>
+        <include_prediction_interval>true</include_prediction_interval>
         <include_target>false</include_target>
         <include_thresholds>false</include_thresholds>
         <include_trend>false</include_trend>
@@ -94,7 +94,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3e82ad2ddb2f00109462a0f2ca961931</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Covid-19 Deaths</sys_name>
         <sys_overrides/>
         <sys_package display_value="Covid-19" source="x_116943_covid_19">c03f1f9ddb2300109462a0f2ca9619d1</sys_package>
@@ -102,7 +102,7 @@
         <sys_scope display_value="Covid-19">c03f1f9ddb2300109462a0f2ca9619d1</sys_scope>
         <sys_update_name>pa_widgets_3e82ad2ddb2f00109462a0f2ca961931</sys_update_name>
         <sys_updated_by>w.geek6</sys_updated_by>
-        <sys_updated_on>2020-03-14 09:43:22</sys_updated_on>
+        <sys_updated_on>2020-03-14 23:21:31</sys_updated_on>
         <tag/>
         <template>template1</template>
         <treemap_max_color display_value="Green">65b302aea9fe3dba00a530d65ecc2106</treemap_max_color>

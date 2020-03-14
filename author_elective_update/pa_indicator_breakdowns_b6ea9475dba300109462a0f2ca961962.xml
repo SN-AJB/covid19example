@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns">
+    <pa_indicator_breakdowns action="DELETE">
+        <breakdown display_value="Location">656d5662eb23310065deac6aa206fee7</breakdown>
+        <display>true</display>
+        <indicator display_value="Covid-19 Infected">7c6a1c35dba300109462a0f2ca961935</indicator>
+        <order>100</order>
+        <sql_statement/>
+        <sys_class_name>pa_indicator_breakdowns</sys_class_name>
+        <sys_created_by>w.geek6</sys_created_by>
+        <sys_created_on>2020-03-14 23:05:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b6ea9475dba300109462a0f2ca961962</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Location.Covid-19 Infected</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Covid-19" source="x_116943_covid_19">c03f1f9ddb2300109462a0f2ca9619d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid-19">c03f1f9ddb2300109462a0f2ca9619d1</sys_scope>
+        <sys_update_name>pa_indicator_breakdowns_b6ea9475dba300109462a0f2ca961962</sys_update_name>
+        <sys_updated_by>w.geek6</sys_updated_by>
+        <sys_updated_on>2020-03-14 23:05:11</sys_updated_on>
+    </pa_indicator_breakdowns>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Covid-19">c03f1f9ddb2300109462a0f2ca9619d1</application>
+        <file_path/>
+        <instance_id>d2dcf79cdbc0ef04cbf6d5b0cf961949</instance_id>
+        <instance_name>dev71001</instance_name>
+        <name>pa_indicator_breakdowns_b6ea9475dba300109462a0f2ca961962</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicator_breakdowns"><pa_indicator_breakdowns action="INSERT_OR_UPDATE"><breakdown display_value="Location">656d5662eb23310065deac6aa206fee7</breakdown><display>true</display><indicator display_value="Covid-19 Infected">7c6a1c35dba300109462a0f2ca961935</indicator><order>100</order><sql_statement/><sys_class_name>pa_indicator_breakdowns</sys_class_name><sys_created_by>w.geek6</sys_created_by><sys_created_on>2020-03-14 23:05:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b6ea9475dba300109462a0f2ca961962</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Location.Covid-19 Infected</sys_name><sys_overrides/><sys_package display_value="Covid-19" source="x_116943_covid_19">c03f1f9ddb2300109462a0f2ca9619d1</sys_package><sys_policy/><sys_scope display_value="Covid-19">c03f1f9ddb2300109462a0f2ca9619d1</sys_scope><sys_update_name>pa_indicator_breakdowns_b6ea9475dba300109462a0f2ca961962</sys_update_name><sys_updated_by>w.geek6</sys_updated_by><sys_updated_on>2020-03-14 23:05:11</sys_updated_on></pa_indicator_breakdowns></record_update>]]></payload>
+        <payload_hash>-209028735</payload_hash>
+        <record_name>7c6a1c35dba300109462a0f2ca961935</record_name>
+        <reverted_from/>
+        <source>183f1f9ddb2300109462a0f2ca9619d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>w.geek6</sys_created_by>
+        <sys_created_on>2020-03-14 23:05:11</sys_created_on>
+        <sys_id>36ea9875dba300109462a0f2ca96190e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170db4b54030000001</sys_recorded_at>
+        <sys_updated_by>w.geek6</sys_updated_by>
+        <sys_updated_on>2020-03-14 23:05:11</sys_updated_on>
+        <type>Indicator Breakdown</type>
+        <update_guid>3eea987528a30010b2ba17fd5280960d</update_guid>
+        <update_guid_history>3eea987528a30010b2ba17fd5280960d:-209028735</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Covid-19 Infected">41ac1439dba300109462a0f2ca961989</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>w.geek6</sys_created_by>
+        <sys_created_on>2020-03-14 23:12:43</sys_created_on>
+        <sys_db_object display_value="" name="pa_indicator_breakdowns">pa_indicator_breakdowns</sys_db_object>
+        <sys_id>29e9827af6ff4d7286d1340c50c03c29</sys_id>
+        <sys_metadata>b6ea9475dba300109462a0f2ca961962</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Location.Covid-19 Infected</sys_name>
+        <sys_package display_value="Covid-19" source="x_116943_covid_19">c03f1f9ddb2300109462a0f2ca9619d1</sys_package>
+        <sys_parent display_value="Covid-19 Infected">7c6a1c35dba300109462a0f2ca961935</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Covid-19">c03f1f9ddb2300109462a0f2ca9619d1</sys_scope>
+        <sys_scope_delete display_value="">405fd5710d4e44949ffb4bcd363ab5c9</sys_scope_delete>
+        <sys_update_name>pa_indicator_breakdowns_b6ea9475dba300109462a0f2ca961962</sys_update_name>
+        <sys_update_version display_value="pa_indicator_breakdowns_b6ea9475dba300109462a0f2ca961962">36ea9875dba300109462a0f2ca96190e</sys_update_version>
+        <sys_updated_by>w.geek6</sys_updated_by>
+        <sys_updated_on>2020-03-14 23:12:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

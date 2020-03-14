@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_layer">
+    <sys_report_layer action="INSERT_OR_UPDATE">
+        <aggregate>SUM</aggregate>
+        <allow_data_label_overlap>false</allow_data_label_overlap>
+        <bar_unstack>false</bar_unstack>
+        <color display_value="UI14 Yellow">ce56c9b3d7332100fa6c0c12ce610334</color>
+        <color_palette display_value="Greens dark to light (5)">a0f81f19d7100200b96d45a3ce61039f</color_palette>
+        <colors/>
+        <compute_percent>aggregate</compute_percent>
+        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <field/>
+        <filter/>
+        <import_table/>
+        <interval>date</interval>
+        <list_ui_view/>
+        <report display_value="Covid-19 Line">1af858b1dba300109462a0f2ca9619a2</report>
+        <report_source/>
+        <sequence>2</sequence>
+        <series_name_text>Covid-19 Deaths</series_name_text>
+        <set_color>one_color</set_color>
+        <show_2nd_y_axis>false</show_2nd_y_axis>
+        <show_chart_data_label>false</show_chart_data_label>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
+        <show_marker>false</show_marker>
+        <source_type>table</source_type>
+        <style_config/>
+        <sumfield>deaths</sumfield>
+        <sys_class_name>sys_report_layer</sys_class_name>
+        <sys_created_by>w.geek6</sys_created_by>
+        <sys_created_on>2020-03-14 22:59:55</sys_created_on>
+        <sys_id>a1b950f1dba300109462a0f2ca96195b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Covid-19 Deaths</sys_name>
+        <sys_package display_value="Covid-19" source="x_116943_covid_19">c03f1f9ddb2300109462a0f2ca9619d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid-19">c03f1f9ddb2300109462a0f2ca9619d1</sys_scope>
+        <sys_update_name>sys_report_layer_a1b950f1dba300109462a0f2ca96195b</sys_update_name>
+        <sys_updated_by>w.geek6</sys_updated_by>
+        <sys_updated_on>2020-03-14 22:59:55</sys_updated_on>
+        <table>x_116943_covid_19_timeseries</table>
+        <trend_field>date</trend_field>
+        <type>line</type>
+        <use_null_in_trend>false</use_null_in_trend>
+        <y_axis_from/>
+        <y_axis_title/>
+        <y_axis_to/>
+    </sys_report_layer>
+</record_update>
