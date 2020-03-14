@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab 2">a74cfb55db2700109462a0f2ca9619fd</grid_canvas>
+        <height>9</height>
+        <portal_widget display_value="Created 2020-03-14 09:37:47">6f12a5a9db2f00109462a0f2ca9619bc</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>w.geek6</sys_created_by>
+        <sys_created_on>2020-03-14 09:37:47</sys_created_on>
+        <sys_id>a312a5a9db2f00109462a0f2ca9619c0</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>a74cfb55db2700109462a0f2ca9619fd</sys_name>
+        <sys_package display_value="Covid-19" source="x_116943_covid_19">c03f1f9ddb2300109462a0f2ca9619d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Covid-19">c03f1f9ddb2300109462a0f2ca9619d1</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_a312a5a9db2f00109462a0f2ca9619c0</sys_update_name>
+        <sys_updated_by>w.geek6</sys_updated_by>
+        <sys_updated_on>2020-03-14 09:40:46</sys_updated_on>
+        <width>4</width>
+    </sys_grid_canvas_pane>
+</record_update>
