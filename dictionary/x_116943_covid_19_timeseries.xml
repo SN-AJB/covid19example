@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Timeseries" max_length="40" name="x_116943_covid_19_timeseries" sizeclass="23932" type="collection">
+    <element label="Timeseries" max_length="40" name="x_116943_covid_19_timeseries" sizeclass="460" type="collection">
         <element label="Confirmed" max_length="40" name="confirmed" type="integer"/>
         <element label="Country" max_length="40" name="country" type="string"/>
         <element label="Date" max_length="40" name="date" type="glide_date"/>
         <element label="Deaths" max_length="40" name="deaths" type="integer"/>
+        <element function_definition="glidefunction:subtract(confirmed,recovered)" function_field="true" label="Infected" max_length="40" name="infected" read_only="true" type="integer"/>
         <element label="Lat" max_length="40" name="lat" type="string"/>
         <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Lon" max_length="40" name="lon" type="string"/>

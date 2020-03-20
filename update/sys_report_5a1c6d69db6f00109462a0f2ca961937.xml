@@ -29,7 +29,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="Phil Swann">1d3bcd7fdb1533009462a0f2ca961908</created_by_user>
+        <created_by_user display_value="Phil Swann">fc4e47c61b1ee300a551ebde6e4bcb8a</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -69,7 +69,7 @@
         <location_field/>
         <lower_limit/>
         <map display_value="United Kingdom">fd851380d7030200bd4a4ebfae610361</map>
-        <map_source display_value="Covid-19">3a1abb9ddbe300109462a0f2ca961947</map_source>
+        <map_source display_value="">3a1abb9ddbe300109462a0f2ca961947</map_source>
         <orderby_list/>
         <other_threshold>-2</other_threshold>
         <others>true</others>

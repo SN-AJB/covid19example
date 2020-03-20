@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_indicators">
     <pa_indicators action="INSERT_OR_UPDATE">
         <aggregate>1</aggregate>
+        <allow_multi_element_aggregation>false</allow_multi_element_aggregation>
         <benchmarking>false</benchmarking>
         <collect_breakdown_matrix>false</collect_breakdown_matrix>
         <collect_records>true</collect_records>
@@ -28,7 +29,7 @@
         <frequency>10</frequency>
         <groups/>
         <has_managed_indicators>false</has_managed_indicators>
-        <id>149</id>
+        <id>132</id>
         <key>false</key>
         <label/>
         <linked_indicator/>

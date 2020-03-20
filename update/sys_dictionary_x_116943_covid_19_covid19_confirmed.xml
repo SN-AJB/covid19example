@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>w.geek6</sys_created_by>
         <sys_created_on>2020-03-14 00:24:01</sys_created_on>
-        <sys_id>9c236795db6300109462a0f2ca961933</sys_id>
+        <sys_id>969884bedbef8010ea813672399619ba</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Confirmed</sys_name>
         <sys_package display_value="Covid-19" source="x_116943_covid_19">c03f1f9ddb2300109462a0f2ca9619d1</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Covid-19">c03f1f9ddb2300109462a0f2ca9619d1</sys_scope>
         <sys_update_name>sys_dictionary_x_116943_covid_19_covid19_confirmed</sys_update_name>
         <sys_updated_by>w.geek6</sys_updated_by>
-        <sys_updated_on>2020-03-14 00:24:01</sys_updated_on>
+        <sys_updated_on>2020-03-18 00:19:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

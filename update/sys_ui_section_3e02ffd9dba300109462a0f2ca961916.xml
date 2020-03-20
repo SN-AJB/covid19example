@@ -182,6 +182,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>infected</element>
+            <position>13</position>
+            <sys_created_by>w.geek6</sys_created_by>
+            <sys_created_on>2020-03-20 00:49:11</sys_created_on>
+            <sys_id>7ea2ee97db670410ea8136723996194f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_116943_covid_19_timeseries" sys_domain="global" view="Default view">3e02ffd9dba300109462a0f2ca961916</sys_ui_section>
+            <sys_updated_by>w.geek6</sys_updated_by>
+            <sys_updated_on>2020-03-20 00:49:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

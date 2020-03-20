@@ -47,7 +47,7 @@
         <update_guid_history>3eea987528a30010b2ba17fd5280960d:-209028735</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Covid-19 Infected">41ac1439dba300109462a0f2ca961989</sys_audit_delete>
+        <sys_audit_delete display_value="">41ac1439dba300109462a0f2ca961989</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>w.geek6</sys_created_by>
         <sys_created_on>2020-03-14 23:12:43</sys_created_on>

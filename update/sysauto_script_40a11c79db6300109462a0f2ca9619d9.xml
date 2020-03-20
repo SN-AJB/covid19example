@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
     <sysauto_script action="INSERT_OR_UPDATE">
         <active>true</active>
+        <business_calendar/>
         <condition/>
         <conditional>false</conditional>
+        <entered_time/>
         <name>Covid-19 Daily Updates</name>
-        <run_as display_value="Phil Swann">1d3bcd7fdb1533009462a0f2ca961908</run_as>
+        <run_as display_value="Phil Swann">fc4e47c61b1ee300a551ebde6e4bcb8a</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
@@ -25,6 +27,7 @@
         <sys_update_name>sysauto_script_40a11c79db6300109462a0f2ca9619d9</sys_update_name>
         <sys_updated_by>w.geek6</sys_updated_by>
         <sys_updated_on>2020-03-14 22:25:28</sys_updated_on>
+        <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>
